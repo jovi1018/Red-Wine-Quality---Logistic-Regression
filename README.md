@@ -6,3 +6,4 @@ Note:
 1. Implemented Logistic regression to predict the wine quality (rating >= 6.5, which is 'Good', otherwise 'Bad')
 2. Imbalanced the dateset, I Implemented SMOTE to deal with the issue.
 3. Hyperparameter tuning 'C'- regularization term.
+4. LR without SMOTE achieved 88% above. Howerver the model with SMOTE doesn't help a lot.
