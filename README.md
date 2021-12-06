@@ -3,7 +3,7 @@ The dataset are related to red and white variants of the Portuguese "Vinho Verde
 These datasets can be viewed as classification or regression tasks. The classes are ordered and not balanced (e.g. there are much more normal wines than excellent or poor ones).
 
 Note:
-1. Implemented Logistic regression to predict the wine quality (rating >= 6.5, which is 'Good', otherwise 'Bad')
+1. Implemented Logistic regression to predict the wine quality (rating >= 6, which is 'Good', otherwise 'Bad')
 2. Imbalanced the dateset, I Implemented SMOTE to deal with the issue.
 3. Hyperparameter tuning 'C'- regularization term.
-4. LR without SMOTE achieved 88% above. Howerver the model with SMOTE doesn't help a lot.
+
